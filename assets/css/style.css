@@ -60,7 +60,7 @@ cite {
     align-items: center;
     position: relative;
     width: 100%;
-    @apply flex-col md:flex-row;
+    @apply flex-col md: flex-row;
 }
 
 .header {
@@ -80,6 +80,7 @@ cite {
 .header__logo img {
     width: 100%;
 }
+
 
 /*WHITE .topnav {
     height: 70px;
@@ -118,6 +119,7 @@ cite {
     height: 65px;
 }
 
+
 /*WHITE .logoLink {
     background-image: url(../assets/img/logo.png);
     background-repeat: no-repeat;
@@ -131,6 +133,7 @@ cite {
     display: block;
     z-index: 999;
 } */
+
 
 /*WHITE .logoImg {
     position: absolute;
@@ -299,7 +302,7 @@ h3.hero__slogan-sub::before {
     background-color: #fff;
     height: 400px;
     width: 300px;
-    @apply shadow-lg hover:shadow-xl;
+    @apply shadow-lg hover: shadow-xl;
 }
 
 .newsblock__image {
@@ -365,7 +368,7 @@ h3.hero__slogan-sub::before {
     position: relative;
     width: 60%;
     z-index: 999;
-    @apply w-full md:w-2/4
+    @apply w-full md: w-2/4
 }
 
 .exhibit__img {
@@ -373,7 +376,7 @@ h3.hero__slogan-sub::before {
     height: 100%;
     position: relative;
     width: 40%;
-    @apply w-full md:w-2/4
+    @apply w-full md: w-2/4
 }
 
 .exhibit__img-overlay {
@@ -457,7 +460,7 @@ h3.hero__slogan-sub::before {
 footer {
     background-color: #333;
     border-top: 1px solid#fff;
-    height: 300px;
+    height: 330px;
     margin-top: 60px;
     width: 100%;
 }
