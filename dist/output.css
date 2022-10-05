@@ -2,6 +2,7 @@
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
 
+
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -10,20 +11,21 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  /* 1 */
-  border-width: 0;
-  /* 2 */
-  border-style: solid;
-  /* 2 */
-  border-color: #e5e7eb;
-  /* 2 */
+    box-sizing: border-box;
+    /* 1 */
+    border-width: 0;
+    /* 2 */
+    border-style: solid;
+    /* 2 */
+    border-color: #e5e7eb;
+    /* 2 */
 }
 
 ::before,
 ::after {
-  --tw-content: '';
+    --tw-content: '';
 }
+
 
 /*
 1. Use a consistent sensible line-height in all browsers.
@@ -33,18 +35,19 @@
 */
 
 html {
-  line-height: 1.5;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  -o-tab-size: 4;
-     tab-size: 4;
-  /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* 4 */
+    line-height: 1.5;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    -moz-tab-size: 4;
+    /* 3 */
+    -o-tab-size: 4;
+    tab-size: 4;
+    /* 3 */
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* 4 */
 }
+
 
 /*
 1. Remove the margin in all browsers.
@@ -52,11 +55,12 @@ html {
 */
 
 body {
-  margin: 0;
-  /* 1 */
-  line-height: inherit;
-  /* 2 */
+    margin: 0;
+    /* 1 */
+    line-height: inherit;
+    /* 2 */
 }
+
 
 /*
 1. Add the correct height in Firefox.
@@ -65,22 +69,24 @@ body {
 */
 
 hr {
-  height: 0;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  border-top-width: 1px;
-  /* 3 */
+    height: 0;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    border-top-width: 1px;
+    /* 3 */
 }
+
 
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
 abbr:where([title]) {
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
 }
+
 
 /*
 Remove the default font size and weight for headings.
@@ -92,18 +98,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  font-weight: inherit;
+    font-size: inherit;
+    font-weight: inherit;
 }
+
 
 /*
 Reset links to optimize for opt-in styling instead of opt-out.
 */
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+    color: inherit;
+    text-decoration: inherit;
 }
+
 
 /*
 Add the correct font weight in Edge and Safari.
@@ -111,8 +119,9 @@ Add the correct font weight in Edge and Safari.
 
 b,
 strong {
-  font-weight: bolder;
+    font-weight: bolder;
 }
+
 
 /*
 1. Use the user's configured `mono` font family by default.
@@ -123,19 +132,21 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
 }
+
 
 /*
 Add the correct font size in all browsers.
 */
 
 small {
-  font-size: 80%;
+    font-size: 80%;
 }
+
 
 /*
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
@@ -143,19 +154,20 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-  top: -0.5em;
+    top: -0.5em;
 }
+
 
 /*
 1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
@@ -164,13 +176,14 @@ sup {
 */
 
 table {
-  text-indent: 0;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
-  border-collapse: collapse;
-  /* 3 */
+    text-indent: 0;
+    /* 1 */
+    border-color: inherit;
+    /* 2 */
+    border-collapse: collapse;
+    /* 3 */
 }
+
 
 /*
 1. Change the font styles in all browsers.
@@ -183,21 +196,22 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  font-weight: inherit;
-  /* 1 */
-  line-height: inherit;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-  padding: 0;
-  /* 3 */
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    font-weight: inherit;
+    /* 1 */
+    line-height: inherit;
+    /* 1 */
+    color: inherit;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+    padding: 0;
+    /* 3 */
 }
+
 
 /*
 Remove the inheritance of text transform in Edge and Firefox.
@@ -205,8 +219,9 @@ Remove the inheritance of text transform in Edge and Firefox.
 
 button,
 select {
-  text-transform: none;
+    text-transform: none;
 }
+
 
 /*
 1. Correct the inability to style clickable types in iOS and Safari.
@@ -217,37 +232,41 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
-  /* 1 */
-  background-color: transparent;
-  /* 2 */
-  background-image: none;
-  /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    background-color: transparent;
+    /* 2 */
+    background-image: none;
+    /* 2 */
 }
+
 
 /*
 Use the modern Firefox focus style for all focusable elements.
 */
 
 :-moz-focusring {
-  outline: auto;
+    outline: auto;
 }
+
 
 /*
 Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
 
 :-moz-ui-invalid {
-  box-shadow: none;
+    box-shadow: none;
 }
+
 
 /*
 Add the correct vertical alignment in Chrome and Firefox.
 */
 
 progress {
-  vertical-align: baseline;
+    vertical-align: baseline;
 }
+
 
 /*
 Correct the cursor style of increment and decrement buttons in Safari.
@@ -255,8 +274,9 @@ Correct the cursor style of increment and decrement buttons in Safari.
 
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
+
 
 /*
 1. Correct the odd appearance in Chrome and Safari.
@@ -264,19 +284,21 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
 }
+
 
 /*
 Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
+
 
 /*
 1. Correct the inability to style clickable types in iOS and Safari.
@@ -284,19 +306,21 @@ Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
 }
+
 
 /*
 Add the correct display in Chrome and Safari.
 */
 
 summary {
-  display: list-item;
+    display: list-item;
 }
+
 
 /*
 Removes the default spacing and border for appropriate elements.
@@ -315,53 +339,57 @@ hr,
 figure,
 p,
 pre {
-  margin: 0;
+    margin: 0;
 }
 
 fieldset {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 legend {
-  padding: 0;
+    padding: 0;
 }
 
 ol,
 ul,
 menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 
 /*
 Prevent resizing textareas horizontally by default.
 */
 
 textarea {
-  resize: vertical;
+    resize: vertical;
 }
+
 
 /*
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    opacity: 1;
+    /* 1 */
+    color: #9ca3af;
+    /* 2 */
 }
 
 input::placeholder,
 textarea::placeholder {
-  opacity: 1;
-  /* 1 */
-  color: #9ca3af;
-  /* 2 */
+    opacity: 1;
+    /* 1 */
+    color: #9ca3af;
+    /* 2 */
 }
+
 
 /*
 Set the default cursor for buttons.
@@ -369,16 +397,18 @@ Set the default cursor for buttons.
 
 button,
 [role="button"] {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 
 /*
 Make sure disabled buttons don't get the pointer cursor.
 */
 
 :disabled {
-  cursor: default;
+    cursor: default;
 }
+
 
 /*
 1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
@@ -394,11 +424,12 @@ audio,
 iframe,
 embed,
 object {
-  display: block;
-  /* 1 */
-  vertical-align: middle;
-  /* 2 */
+    display: block;
+    /* 1 */
+    vertical-align: middle;
+    /* 2 */
 }
+
 
 /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
@@ -406,180 +437,181 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 img,
 video {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
-*, ::before, ::after {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+*,
+ ::before,
+ ::after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
 }
 
 ::-webkit-backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
 }
 
 ::backdrop {
-  --tw-border-spacing-x: 0;
-  --tw-border-spacing-y: 0;
-  --tw-translate-x: 0;
-  --tw-translate-y: 0;
-  --tw-rotate: 0;
-  --tw-skew-x: 0;
-  --tw-skew-y: 0;
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  --tw-pan-x:  ;
-  --tw-pan-y:  ;
-  --tw-pinch-zoom:  ;
-  --tw-scroll-snap-strictness: proximity;
-  --tw-ordinal:  ;
-  --tw-slashed-zero:  ;
-  --tw-numeric-figure:  ;
-  --tw-numeric-spacing:  ;
-  --tw-numeric-fraction:  ;
-  --tw-ring-inset:  ;
-  --tw-ring-offset-width: 0px;
-  --tw-ring-offset-color: #fff;
-  --tw-ring-color: rgb(59 130 246 / 0.5);
-  --tw-ring-offset-shadow: 0 0 #0000;
-  --tw-ring-shadow: 0 0 #0000;
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  --tw-blur:  ;
-  --tw-brightness:  ;
-  --tw-contrast:  ;
-  --tw-grayscale:  ;
-  --tw-hue-rotate:  ;
-  --tw-invert:  ;
-  --tw-saturate:  ;
-  --tw-sepia:  ;
-  --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
-  --tw-backdrop-brightness:  ;
-  --tw-backdrop-contrast:  ;
-  --tw-backdrop-grayscale:  ;
-  --tw-backdrop-hue-rotate:  ;
-  --tw-backdrop-invert:  ;
-  --tw-backdrop-opacity:  ;
-  --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  ;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
 }
 
 .flex-col {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .shadow-lg {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 @font-face {
-  font-family: 'Capture it';
-
-  src: url(../assets/font/Capture_it.ttf);
+    font-family: 'Capture it';
+    src: url(../assets/font/Capture_it.ttf);
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background: url(../assets/img/IMG_3039-78.jpg) no-repeat fixed;
-  background-size: cover;
-  font-size: 10px;
-  color: #333;
-  line-height: 1;
-  font-family: 'Raleway', sans-serif;
+    background: url(../assets/img/IMG_3039-78.jpg) no-repeat fixed;
+    background-size: cover;
+    font-size: 10px;
+    color: #333;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1,
@@ -587,66 +619,67 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Capture it';
-  font-weight: 100;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+    font-family: 'Capture it';
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 p {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 blockquote {
-  font-family: 'Bad Script', cursive;
-  font-size: 3em;
-  width: 60%;
+    font-family: 'Bad Script', cursive;
+    font-size: 3em;
+    width: 60%;
 }
 
 cite {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 .wrapper {
-  background-color: #fff;
-  box-shadow: 0px 22px 15px rgba(0, 0, 0, 0.8);
-  max-width: 1280px;
-  margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 22px 15px rgba(0, 0, 0, 0.8);
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .smallblock {
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  flex-direction: column;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
 }
 
 @media (min-width: 768px) {
-  .smallblock {
-    flex-direction: row;
-  }
+    .smallblock {
+        flex-direction: row;
+    }
 }
 
 .header {
-  background: #fff;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  max-width: 1280px;
-  z-index: 99999;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1280px;
+    z-index: 99999;
 }
 
 .header__logo {
-  width: 95px;
-  height: 65px;
+    width: 95px;
+    height: 65px;
 }
 
 .header__logo img {
-  width: 100%;
+    width: 100%;
 }
+
 
 /*WHITE .topnav {
     height: 70px;
@@ -660,30 +693,31 @@ cite {
 } */
 
 .topnav {
-  height: 70px;
-  background: #105A84;
-  /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
-  color: #fff;
-  display: flex;
-  font-size: 1.8em;
-  font-weight: 600;
-  justify-content: space-around;
-  align-items: center;
-  -moz-column-gap: 1px;
-  column-gap: 0em;
+    height: 70px;
+    background: #105A84;
+    /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%); */
+    color: #fff;
+    display: flex;
+    font-size: 1.8em;
+    font-weight: 600;
+    justify-content: space-around;
+    align-items: center;
+    -moz-column-gap: 1px;
+    column-gap: 0em;
 }
 
 .topnav a {
-  /* color: #2b6ba0; */
-  font-weight: 600;
-  text-transform: uppercase;
-  text-decoration: none;
+    /* color: #2b6ba0; */
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .topnav a img {
-  width: 95px;
-  height: 65px;
+    width: 95px;
+    height: 65px;
 }
+
 
 /*WHITE .logoLink {
     background-image: url(../assets/img/logo.png);
@@ -699,6 +733,7 @@ cite {
     z-index: 999;
 } */
 
+
 /*WHITE .logoImg {
     position: absolute;
     top: -82px;
@@ -707,58 +742,59 @@ cite {
 } */
 
 .logoLink {
-  background-image: url(../assets/img/logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-left: 105px solid transparent;
-  border-right: 105px solid transparent;
-  border-top: 135px solid #1F5B84;
-  width: 0;
-  height: 0;
-  position: relative;
-  display: block;
-  z-index: 999;
+    background-image: url(../assets/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-left: 105px solid transparent;
+    border-right: 105px solid transparent;
+    border-top: 135px solid #105A84;
+    width: 0;
+    height: 0;
+    position: relative;
+    display: block;
+    z-index: 999;
 }
 
 .logoImg {
-  position: absolute;
-  top: -100px;
-  left: -47px;
-  max-width: 95px;
+    position: absolute;
+    top: -100px;
+    left: -47px;
+    max-width: 95px;
 }
 
 .hero {
-  align-items: center;
-  background: url(../assets/img/IMG_3057-85.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  background-size: cover;
-  filter: grayscale(85%);
-  position: relative;
-  top: 70px;
-  height: 700px;
-  width: 100%;
+    align-items: center;
+    background: url(../assets/img/IMG_3057-85.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    filter: grayscale(85%);
+    position: relative;
+    top: 70px;
+    height: 700px;
+    width: 100%;
 }
 
 .hero__main {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
-  font-size: 4em;
-  height: 100%;
-  letter-spacing: 1rem;
-  text-align: center;
-  padding: 20% 10%;
-  width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 4em;
+    height: 100%;
+    letter-spacing: 1rem;
+    text-align: center;
+    padding: 20% 10%;
+    width: 100%;
 }
 
 .hero__slogan-sub {
-  margin-bottom: 50px;
-  text-transform: none;
-  font-size: 1.1em;
-  letter-spacing: normal;
+    margin-bottom: 50px;
+    text-transform: none;
+    font-size: 1.1em;
+    letter-spacing: normal;
 }
+
 
 /* .hero::before {
     content: "";
@@ -787,270 +823,276 @@ cite {
 } */
 
 .hero::after {
-  content: "";
-  border-top: 100px solid #fff;
-  position: absolute;
-  margin: 0 auto;
-  bottom: -136px;
-  left: -27%;
-  right: 0%;
-  width: 35%;
-  transform: translateY(-100%) skewY(188deg);
-  transform-origin: left;
+    content: "";
+    border-top: 100px solid #fff;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -136px;
+    left: -27%;
+    right: 0%;
+    width: 35%;
+    transform: translateY(-100%) skewY(188deg);
+    transform-origin: left;
 }
 
 .hero::before {
-  content: "";
-  border-top: 100px solid #fff;
-  position: absolute;
-  margin: 0 auto;
-  bottom: 64px;
-  left: 27%;
-  right: 0%;
-  width: 35%;
-  transform: translateY(100%) skewY(352deg);
-  transform-origin: right;
+    content: "";
+    border-top: 100px solid #fff;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 64px;
+    left: 27%;
+    right: 0%;
+    width: 35%;
+    transform: translateY(100%) skewY(352deg);
+    transform-origin: right;
 }
 
 h3.hero__slogan-sub {
-  font-family: 'Marck Script', cursive;
-  margin-top: 50px;
-  position: relative;
+    font-family: 'Marck Script', cursive;
+    margin-top: 50px;
+    position: relative;
 }
 
 h3.hero__slogan-sub::before {
-  background-color: #fff;
-  content: "";
-  height: 2px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-  position: absolute;
-  top: -20px;
-  width: 50%;
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    width: 50%;
 }
 
 .stats {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .stats__counter {
-  text-align: center;
-  margin-top: 50px;
-  width: 25%;
+    text-align: center;
+    margin-top: 50px;
+    width: 25%;
 }
 
 .stats__counter span {
-  font-size: 2.5em;
-  font-weight: 600;
-  display: block;
-  margin: 30px 0;
+    font-size: 2.5em;
+    font-weight: 600;
+    display: block;
+    margin: 30px 0;
 }
 
 .stats__counter p {
-  color: #2b6ba0;
-  font-family: 'Capture it';
-  font-size: 10em;
+    color: #2b6ba0;
+    font-family: 'Capture it';
+    font-size: 10em;
 }
 
 .news {
-  background-color: #88B5DC;
-  justify-content: space-around;
-  padding: 50px 20px;
+    background-color: #88B5DC;
+    justify-content: space-around;
+    padding: 50px 20px;
 }
 
 .newsblock {
-  background-color: #fff;
-  height: 400px;
-  width: 300px;
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background-color: #fff;
+    height: 400px;
+    width: 300px;
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .newsblock:hover {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .newsblock__image {
-  background-color: #333;
-  height: 60%;
-  width: 100%;
+    background-color: #333;
+    height: 60%;
+    width: 100%;
+}
+
+.newsblock__image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .newsblock__desc {
-  color: #333;
-  font-size: 1.8em;
-  text-align: center;
-  padding: 20px;
+    color: #333;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 20px;
 }
 
 .target {
-  justify-content: center;
-  gap: 2rem;
-  height: 400px;
-  padding: 50px;
-  z-index: 9999;
+    justify-content: center;
+    gap: 2rem;
+    height: 400px;
+    padding: 50px;
+    z-index: 9999;
 }
 
 .target_img {
-  height: 250px;
-  position: relative;
-  width: 40%;
+    height: 250px;
+    position: relative;
+    width: 40%;
 }
 
 .target_img img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .target_img::after {
-  background-color: #2b6ba0;
-  color: #fff;
-  font-family: 'Capture it';
-  font-size: 3em;
-  font-weight: 100;
-  letter-spacing: .2em;
-  content: "ЦЕЛИ И ЗАДАЧИ";
-  bottom: -20px;
-  right: -50px;
-  padding: 30px 50px;
-  position: absolute;
+    background-color: #2b6ba0;
+    color: #fff;
+    font-family: 'Capture it';
+    font-size: 3em;
+    font-weight: 100;
+    letter-spacing: .2em;
+    content: "ЦЕЛИ И ЗАДАЧИ";
+    bottom: -20px;
+    right: -50px;
+    padding: 30px 50px;
+    position: absolute;
 }
 
 .target__desc {
-  align-self: baseline;
-  color: #333;
-  font-size: 2em;
-  width: 30%;
+    align-self: baseline;
+    color: #333;
+    font-size: 2em;
+    width: 30%;
 }
 
 .exhibit__desc {
-  background-color: #2b6ba0;
-  color: #fff;
-  font-size: 1.8em;
-  height: 100%;
-  padding: 50px;
-  position: relative;
-  z-index: 999;
-  width: 100%
+    background-color: #2b6ba0;
+    color: #fff;
+    font-size: 1.8em;
+    height: 100%;
+    padding: 50px;
+    position: relative;
+    z-index: 999;
+    width: 100%
 }
 
 @media (min-width: 768px) {
-  .exhibit__desc {
-    width: 50%;
-  }
+    .exhibit__desc {
+        width: 50%;
+    }
 }
 
 .exhibit__img {
-  border: 4px solid #2B6BA0;
-  height: 100%;
-  position: relative;
-  width: 100%
+    border: 4px solid #2B6BA0;
+    height: 100%;
+    position: relative;
+    width: 100%
 }
 
 @media (min-width: 768px) {
-  .exhibit__img {
-    width: 50%;
-  }
+    .exhibit__img {
+        width: 50%;
+    }
 }
 
 .exhibit__img-overlay {
-  background: rgba(0, 0, 0, 0.8);
-  height: 100%;
-  position: absolute;
-  top: -100%;
-  left: 0;
-  visibility: hidden;
-  transition: 1s;
-  -webkit-transition: 1s;
-  width: 100%;
-  z-index: 333;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    visibility: hidden;
+    transition: 1s;
+    -webkit-transition: 1s;
+    width: 100%;
+    z-index: 333;
 }
 
 .exhibit__img-overlay::before {
-  content: "Подробнее";
-  color: #fff;
-  height: 60px;
-  font-size: 3em;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 50%;
-  bottom: 50%;
-  padding: 8px 15px;
-  position: absolute;
-  text-transform: uppercase;
-  transition: (-50%, -50%);
-  width: 160px;
-  -webkit-transition: (-50%, -50%);
-  -moz-transition: (-50%, -50%);
-  -ms-transition: (-50%, -50%);
-  -o-transition: (-50%, -50%);
+    content: "Подробнее";
+    color: #fff;
+    height: 60px;
+    font-size: 3em;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+    padding: 8px 15px;
+    position: absolute;
+    text-transform: uppercase;
+    transition: (-50%, -50%);
+    width: 160px;
+    -webkit-transition: (-50%, -50%);
+    -moz-transition: (-50%, -50%);
+    -ms-transition: (-50%, -50%);
+    -o-transition: (-50%, -50%);
 }
 
 .exhibit__img a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .exhibit__img a:hover>.exhibit__img-overlay {
-  transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-  visibility: visible;
-  -moz-transform: translateY(100%);
-  -ms-transform: translateY(100%);
-  -o-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    visibility: visible;
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
 }
 
 .exhibit__img img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 100%;
-  height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 
 .media {
-  height: 600px;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  z-index: 9999;
+    height: 600px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9999;
 }
 
 .mediablock {
-  background-color: #88B5DC;
-  height: 200px;
-  width: 300px;
+    background-color: #88B5DC;
+    height: 200px;
+    width: 300px;
 }
 
 .mediablock img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 footer {
-  background-color: #333;
-  border-top: 1px solid#fff;
-  height: 300px;
-  margin-top: 60px;
-  width: 100%;
+    background-color: #333;
+    border-top: 1px solid#fff;
+    height: 300px;
+    margin-top: 60px;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
-  .md\:flex-row {
-    flex-direction: row;
-  }
+    .md\:flex-row {
+        flex-direction: row;
+    }
 }

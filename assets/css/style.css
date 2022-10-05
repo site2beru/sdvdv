@@ -311,6 +311,12 @@ h3.hero__slogan-sub::before {
     width: 100%;
 }
 
+.newsblock__image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 .newsblock__desc {
     color: #333;
     font-size: 1.8em;
