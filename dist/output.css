@@ -622,8 +622,15 @@ h5 {
     font-family: 'Capture it';
     font-weight: 100;
     letter-spacing: 2px;
+    margin-bottom: 20px !important;
+    margin-top: 20px;
     text-transform: uppercase;
 }
+
+
+/* h1 {
+    font-size: 2em !important;
+} */
 
 p {
     margin: 20px 0;
@@ -637,6 +644,18 @@ blockquote {
 
 cite {
     font-size: 2em;
+}
+
+button.btn {
+    display: block;
+    background-color: #2B6BA0;
+    color: #fff;
+    height: 50px;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 150px;
 }
 
 .wrapper {
@@ -1081,18 +1100,101 @@ h3.hero__slogan-sub::before {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -ms-transition: transform .5s ease-in-out;
+    -o-transition: transform .5s ease-in-out;
+}
+
+.mediablock img:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 footer {
     background-color: #333;
     border-top: 1px solid#fff;
-    height: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 60px;
     width: 100%;
+}
+
+.footer__contact {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.footer__contact P {
+    margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
     .md\:flex-row {
         flex-direction: row;
     }
+}
+
+
+/* Inner pages */
+
+.inner__header {
+    background: url(../assets/img/IMG_7173-54.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+    /* position: relative;
+    top: 70px; */
+}
+
+.inner__header h1 {
+    color: #fff;
+    font-size: 4em;
+}
+
+.content {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+
+.content__article {
+    max-width: 70%;
+}
+
+.content p {
+    color: #333;
+    font-size: 1.7em;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.inner__pic {
+    border: 10px solid #105A84;
+    /* border-radius: 50%; */
+    float: right;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 10px;
+    /* -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; */
+}
+
+.sidebar {
+    max-width: 30%;
 }
