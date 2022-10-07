@@ -909,8 +909,9 @@ h3.hero__slogan-sub::before {
 
 .stats__counter {
     text-align: center;
-    margin-top: 50px;
-    width: 25%;
+    /* margin-top: 50px; */
+    min-width: 33%;
+    width: auto;
 }
 
 .stats__counter span {
@@ -930,7 +931,7 @@ h3.hero__slogan-sub::before {
     background-color: #88B5DC;
     justify-content: space-around;
     padding: 50px 20px;
-    z-index: 99999;
+    z-index: 9999;
 }
 
 .newsblock {
@@ -1232,6 +1233,11 @@ footer {
     /* font-weight: 600; */
     line-height: 1.5;
     margin-bottom: 15px;
+}
+
+.content a {
+    color: #105A84 !important;
+    text-decoration: underline !important;
 }
 
 .content h2 {
