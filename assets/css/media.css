@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+    .smallblock,
+    .content {
+        flex-direction: row;
+    }
+
+    .exhibit__desc {
+        width: 50%;
+    }
+
+    .exhibit__img {
+        width: 50%;
+    }
+
+
+}

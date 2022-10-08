@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="dist/output.css" rel="stylesheet">
-    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
@@ -19,14 +17,23 @@
 <body>
 
     <div class="wrapper">
-
-        <header class="header shadow-lg">
+        <nav class="topnav-mobile md:hidden">
+            <div class="mobile__button"></div>
+            <ul class="mobile__list flex flex-col justify-around closed">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="inner.html">Отделение</a></li>
+                <li><a href="4tver.html">Проекты</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <header class="header shadow-lg hidden md:block">
             <nav class="topnav shadow-lg">
                 <a href="inner.html">Отделение</a>
                 <a href="">Проекты</a>
                 <a class="logoLink" href="index.html"><img class="logoImg" src="assets/img/logo.png" alt=""></a>
-                <a href="">Новости</a>
-                <a href="">Контакты</a>
+                <a href="news.html">Новости</a>
+                <a href="contact.html">Контакты</a>
             </nav>
         </header>
 
@@ -41,7 +48,7 @@
         </div>
 
         <article class="content flex-col md:flex-row">
-            <div class="content__article">
+            <div class="content__article w-auto md:w-3/5">
                 <h2>Интерактивная выставка «4 эпохи воинской славы Твери»</h2>
 
                 <p>Интерактивная выставка «Четыре эпохи воинской славы Твери» создана в 2017 году Тверской областной организацией по делам молодежи «Молодежная политика-ХХI век» и Тверским региональным отделением Межрегиональной общественной организации «Союз десантников».</p>
@@ -55,7 +62,7 @@
                     </ul>
                 <p>Экскурсии для взрослых и детей. Дети до 14 лет посещают музей в сопровождении взрослых.</p>
             </div>
-            <aside class="sidebar">
+            <aside class="sidebar w-auto md:w-2/5">
                 <h3>Контакты выставки</h3>
                 <p><i class="fa fa-vk" aria-hidden="true"></i> https://vk.com/4tver</p>
                 <p><i class="fa fa-phone" aria-hidden="true"></i> +7 (985) 813-10-32</p>
@@ -73,6 +80,8 @@
             </div>
         </footer>
     </div>
+    <script src="assets/js/scripts.js"></script>
+
 </body>
 
 </html>

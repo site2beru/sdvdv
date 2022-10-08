@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="dist/output.css" rel="stylesheet">
-    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
@@ -18,14 +16,23 @@
 <body>
 
     <div class="wrapper">
-
-        <header class="header shadow-lg">
+        <nav class="topnav-mobile md:hidden">
+            <div class="mobile__button"></div>
+            <ul class="mobile__list flex flex-col justify-around closed">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="inner.html">Отделение</a></li>
+                <li><a href="4tver.html">Проекты</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <header class="header shadow-lg hidden md:block">
             <nav class="topnav shadow-lg">
                 <a href="inner.html">Отделение</a>
                 <a href="4tver.html">Проекты</a>
                 <a class="logoLink" href=""><img class="logoImg" src="assets/img/logo.png" alt=""></a>
-                <a href="">Новости</a>
-                <a href="">Контакты</a>
+                <a href="news.html">Новости</a>
+                <a href="contact.html">Контакты</a>
             </nav>
         </header>
 
@@ -38,7 +45,7 @@
             </div>
         </div>
 
-        <div class="stats smallblock">
+        <div class="stats smallblock flex-col md:flex-row">
             <div class="stats__counter">
                 <span>Нам более</span>
                 <p>17</p>
@@ -62,29 +69,29 @@
                 <div class="newsblock__desc">
                     Урок патриотического воспитания в средней школе №11 Твери
                 </div>
-                <button class="btn">Подробнее</button>
+                <a class="btn" href="newspost.html">Подробнее</a>
             </div>
             <div class="newsblock">
                 <div class="newsblock__image"><img src="assets/img/13.jpg" alt=""></div>
                 <div class="newsblock__desc">
                     Выставка в детском лагере «Романтик» под Тверью
                 </div>
-                <button class="btn">Подробнее</button>
+                <a class="btn" href="newspost.html">Подробнее</a>
             </div>
             <div class="newsblock">
                 <div class="newsblock__image"><img src="assets/img/11.jpg" alt=""></div>
                 <div class="newsblock__desc">
                     Празднование 92-летия Воздушно-десантных войск
                 </div>
-                <button class="btn">Подробнее</button>
+                <a class="btn" href="newspost.html">Подробнее</a>
             </div>
         </div>
 
-        <div class="target smallblock">
-            <div class="target_img">
+        <div class="target smallblock flex-col md:flex-row">
+            <div class="target_img w-auto md:w-1/2">
                 <img src="assets/img/IMG_7173-54.jpg" alt="">
             </div>
-            <div class="target__desc">
+            <div class="target__desc w-auto md:w-1/2">
                 <p><strong>Цели и задачи Межрегиональной общественной организации
                 «Союз десантников»</strong>
                 </p>
@@ -116,7 +123,7 @@
             <div class="mediablock"><img src="assets/img/IMG_2994-75.jpg" alt=""></div>
         </div>
 
-        <div class="exhibit smallblock">
+        <div class="exhibit smallblock flex-col md:flex-row">
             <div class="exhibit__img">
                 <a href="inner.html">
                     <div class="exhibit__img-overlay"></div>
@@ -137,6 +144,7 @@
             </div>
         </footer>
     </div>
+    <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>

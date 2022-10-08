@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="dist/output.css" rel="stylesheet">
-    <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
@@ -18,14 +16,23 @@
 <body>
 
     <div class="wrapper">
-
-        <header class="header shadow-lg">
+        <nav class="topnav-mobile md:hidden">
+            <div class="mobile__button"></div>
+            <ul class="mobile__list flex flex-col justify-around closed">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="inner.html">Отделение</a></li>
+                <li><a href="4tver.html">Проекты</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <header class="header shadow-lg hidden md:block">
             <nav class="topnav shadow-lg">
                 <a href="">Отделение</a>
                 <a href="4tver.html">Проекты</a>
                 <a class="logoLink" href="index.html"><img class="logoImg" src="assets/img/logo.png" alt=""></a>
-                <a href="">Новости</a>
-                <a href="">Контакты</a>
+                <a href="news.html">Новости</a>
+                <a href="contact.html">Контакты</a>
             </nav>
         </header>
 
@@ -48,13 +55,17 @@
                 <p>При поддержке организации в Твери и области проводятся различные мероприятия военно-патриотической и спортивной направленности – фестивали исторической реконструкции, городские праздники, спортивные состязания.</p>
                 <p>Неизменно ТРО МОО «Союз десантников» остается в числе <strong>организаторов одного из крупнейших праздников города – Дня ВДВ</strong>. Кроме того, актив организации способствует проведению таких праздников как День освобождения Калинина от немецко-фашистских
                     захватчиков, День Российской армии, День Победы и других.</p>
-                <p>При поддержке ТРО МОО «Союз десантников» в Твери активно развивается <strong>музей военной техники под открытым небом в парке Победы</strong>. Здесь, благодаря усилиям, в том числе, членов организации, установлены образцы военной техники – танки Т-34 и
+                    <blockquote>
+                        «ВДВ - это мужество высшего класса, храбрость первой категории, боевая готовность номер один». – В.Ф. Маргелов
+                    </blockquote>
+                    <p>При поддержке ТРО МОО «Союз десантников» в Твери активно развивается <strong>музей военной техники под открытым небом в парке Победы</strong>. Здесь, благодаря усилиям, в том числе, членов организации, установлены образцы военной техники – танки Т-34 и
                     Т-80, установка ИСУ-152, гаубицы М-50, истребитель МиГ-25 и БТР-60ПБ.</p>
+                    <img src="https://sun9-61.userapi.com/impf/7EwpomuUb5PfkLxRTuJ9Yxn-LM87a2oZnkm-PQ/olR4Ev9yQYw.jpg?size=1280x800&quality=96&sign=8bba89a6292a0cd937c6a58ca5f05926&type=album" alt="">
                 <p>ТРО МОО «Союз десантников» активно сотрудничает с другими ветеранскими организациями, действующими на территории региона. Совместно проводятся военно-патриотические мероприятия для молодежи.</p>
                 <p>В штабе организации имеется собственная <a href="4tver.html"><strong>интерактивная выставка «4 эпохи воинской славы Твери»</strong></a>. Для школьников здесь проводят экскурсии, в ходе которых рассказывают о четырех исторических эпохах, прославивших русских воинов. Особенность
                     выставки в том, что все модели вооружения гости десантников могут рассмотреть из собственных рук, также гости могут примерить исторические доспехи.</p>
             </div>
-            <aside class="sidebar">
+            <aside class="sidebar w-1/2 md:w-auto">
                 <img class="inner__pic" src="https://sun9-79.userapi.com/impg/Uev9wQGBQhggICLp0YYXb634HWCdtje8dqD01w/79dz3lLFHmI.jpg?size=1920x1200&quality=96&sign=3f8467179db121dd00aa76cbc02297d2&type=album" alt="">
                 <img class="inner__pic" src="https://sun9-53.userapi.com/impg/VRY4RiLR4MNR9BKeE3b0OIOrwZT25Ft8S5mMUA/9Yy-a8xF_xA.jpg?size=1920x1200&quality=96&sign=1c981ecc82cbdb5a6d89822ffa862cda&type=album" alt="">
                 <img class="inner__pic" src="https://sun9-5.userapi.com/impg/t3nf4YdAd1JJ-oGQubDVJNox0beAhXy2UoYIoQ/7feEfeJLcHo.jpg?size=1920x1200&quality=96&sign=a72320be7d6a160c138812b3dd106f84&type=album" alt="">
@@ -70,6 +81,8 @@
             </div>
         </footer>
     </div>
+    <script src="assets/js/scripts.js"></script>
+
 </body>
 
 </html>
