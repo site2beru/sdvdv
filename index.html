@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>«Союз десантников» Тверское региональное отделение</title>
 </head>
 
@@ -64,21 +65,21 @@
         </div>
 
         <div class="news smallblock">
-            <div class="newsblock">
+            <div class="newsblock" data-aos="zoom-in">
                 <div class="newsblock__image"><img src="assets/img/12.jpg" alt=""></div>
                 <div class="newsblock__desc">
                     Урок патриотического воспитания в средней школе №11 Твери
                 </div>
                 <a class="btn" href="newspost.html">Подробнее</a>
             </div>
-            <div class="newsblock">
+            <div class="newsblock" data-aos="zoom-in">
                 <div class="newsblock__image"><img src="assets/img/13.jpg" alt=""></div>
                 <div class="newsblock__desc">
                     Выставка в детском лагере «Романтик» под Тверью
                 </div>
                 <a class="btn" href="newspost.html">Подробнее</a>
             </div>
-            <div class="newsblock">
+            <div class="newsblock" data-aos="zoom-in">
                 <div class="newsblock__image"><img src="assets/img/11.jpg" alt=""></div>
                 <div class="newsblock__desc">
                     Празднование 92-летия Воздушно-десантных войск
@@ -144,6 +145,12 @@
             </div>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        startEvent: 'DOMContentLoaded'
+    });
+  </script>
     <script src="assets/js/scripts.js"></script>
 </body>
 
