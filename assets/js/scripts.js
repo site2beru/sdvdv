@@ -7,7 +7,10 @@ let navMobile = document.querySelector('.mobile__list.closed'),
 
 btn.addEventListener('click', function() {
     if ( navMobile.classList.contains('closed') ) {  
-    navMobile.classList.toggle('closed');
+    navMobile.classList.remove('closed');
+    }
+    else {
+        navMobile.classList.add('closed');   
     }
 });
 
