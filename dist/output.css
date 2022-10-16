@@ -1268,7 +1268,7 @@ footer {
 
 .mobile__list {
   background-color: #105A84;
-  bottom: -190px;
+  top: 70px;
   color: #fff;
   display: block;
   padding: 15px 20px;
