@@ -1273,6 +1273,7 @@ footer {
   display: block;
   padding: 15px 20px;
   position: absolute;
+  margin: 0;
   transition: bottom 2s ease-in-out;
   width: 100%;
   font-size: 2em;
