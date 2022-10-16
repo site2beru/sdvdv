@@ -1286,6 +1286,7 @@ footer {
 
 .mobile__list ul li a:hover {
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .closed {
