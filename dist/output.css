@@ -665,7 +665,7 @@ a.btn {
 .wrapper {
   background-color: #fff;
   box-shadow: 0px 22px 15px rgba(0, 0, 0, 0.8);
-  /* max-width: 1280px; */
+  /* max-width: 1280px;  */ /* раскомментировать, чтобы сделать сайт с фоном */
   margin: 0 auto;
 }
 
@@ -683,7 +683,7 @@ a.btn {
   position: fixed;
   top: 0;
   width: 100%;
-  /* max-width: 1280px; */
+  /* max-width: 1280px; */ /* раскомментировать, чтобы сделать сайт с фоном */
   z-index: 99999;
 }
 
