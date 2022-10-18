@@ -1133,7 +1133,8 @@ h3.hero__slogan-sub::before {
     width: 300px;
 }
 
-.mediablock img {
+img.media__img {
+    cursor: zoom-in;
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
@@ -1145,12 +1146,22 @@ h3.hero__slogan-sub::before {
     -o-transition: transform .5s ease-in-out;
 }
 
-.mediablock img:hover {
+
+/* .mediablock img:hover {
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
     -ms-transform: scale(1.5);
     -o-transform: scale(1.5);
+} */
+
+img.media__img.clicked {
+    cursor: zoom-out;
+    transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
 }
 
 footer {
