@@ -820,17 +820,22 @@ a.btn {
 
 .hero {
     align-items: center;
-    background: url(../assets/img/IMG_3057-85.jpg);
+    background: url(https://sun9-77.userapi.com/impg/OmDFBlAcaIvZEN0nA3taj0pL1JFk_omyxAzFRg/ebqvrC8heWk.jpg?size=1280x800&quality=96&sign=70910dbc4057af1c350662cfcb14151b&type=album);
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     background-size: cover;
-    filter: grayscale(85%);
+    filter: grayscale(50%);
     position: relative;
     top: 70px;
     height: 700px;
     width: 100%;
+}
+
+.gerb {
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 .hero__main {
@@ -840,7 +845,7 @@ a.btn {
     height: 100%;
     letter-spacing: 1rem;
     text-align: center;
-    padding: 20% 10%;
+    padding: 2% 10%;
     width: 100%;
 }
 
